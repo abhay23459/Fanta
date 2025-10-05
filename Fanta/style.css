@@ -1,0 +1,278 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+#header{
+    height: 10%;
+    width: 100%;
+     background: linear-gradient(to right, orange, red);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo img{
+    height: 60px;
+    margin-left: 5px;
+    position: absolute;
+    left: 10%;
+    top: 1%;
+}
+
+.menu ul{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+.menu ul li{
+    box-shadow: 0px 0px 40px rgb(171, 171, 171);
+   font-size: 20px;
+   padding: 8px;
+   border-radius: 5px;
+}
+.menu ul li:hover {
+color: white;
+transform: translateY(-3px);
+cursor: pointer;
+}
+#page1{
+    height: 80%;
+    width: 100%;
+    background: linear-gradient(to right, orange,orangered );
+}
+#leaf{
+    position: absolute;
+    top: 20%;
+    rotate: 65deg;
+    height: 250px;  
+}
+.leaf img{
+    height: 20rem;
+}
+#fanta h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25rem;
+    color: white;
+    padding: 130px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#can{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 3%;
+    left: 25%;
+   height:100%;
+   margin-top: 20px;
+   z-index: 0;
+}
+#can img{
+    height: 73%;
+}
+#can .orange {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 7%;
+    left: 10%;
+    z-index: -1;
+}
+
+#can .orange img {
+    height: 300px; 
+}
+#oran{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 45%;
+    left: 48%;
+    height: 460px;
+}
+#coco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 7%;
+    left: 125%;
+}
+#leaf2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 64%;
+    left: 125%;
+    height: 320px;
+    rotate: -70deg;
+    margin: 0%;
+}
+#page2{
+    background-color: rgb(221,40,40);
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+#leftside{
+    height:100%;
+    width:50% ;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+    }
+#leftside svg{
+    height: 80vh;
+    transform: rotateX(70deg);
+    position: absolute;
+    top: 30%;
+    left: 27%;
+}
+.rightside{
+    color: white;
+    display: flex;
+}
+.rightside h1{
+    height: 10%;
+    width: 40%;
+    display: flex;
+    position: relative;
+    top: 10%;
+    left: 45%;
+    font-size: 2rem;
+    white-space: nowrap;
+}
+.rightside p{
+    position: relative;
+    top: 18%;
+    font-size: 1.8rem;
+    left: -5%;
+}
+#page3{
+    height: 100%;
+    width: 100%;
+   background: linear-gradient(to right, orange,orangered );
+   display: flex;
+   padding: 50px;
+   gap: 40px;
+}
+#card1{
+    height: 95%;
+    width: 35%;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    
+}
+#card1 img{
+    height: 90%;
+    width: 100%;
+    margin-bottom: 50px;
+    object-fit: contain;
+    z-index: 1;
+}
+#img2 img{
+    height: 350px;
+    position: absolute;
+    top: 180%;
+    left: 7%;
+    z-index: 0;
+}
+#card2{
+    height: 95%;
+    width: 35%;
+    background-color: white;
+    border-radius: 15px;
+}
+#card3{
+    height: 95%;
+    width: 35%;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+#card3 img{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 50px;
+    object-fit: contain;
+    z-index: 1;
+}
+#img3 img{
+    height: 350px;
+    position: absolute;
+    top: 180%;
+    left: 70%;
+    z-index: 0;
+}
+#page4{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(221,40,40);
+}
+.content{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#left img{
+     height:55vh;
+     width: 82vh;
+    position: absolute;
+    top: 320%;
+    left: 10%;
+}
+.right{
+     color: white;
+    display: flex;
+}
+.right h1{
+    height: 10%;
+    width: 40%;
+    display: flex;
+    position: absolute;
+    top: 300%;
+    left: 50%;
+    font-size: 2rem;
+    white-space: nowrap;
+}
+.right p{
+    position: absolute;
+    top: 309%;
+    font-size: 1.8rem;
+    left: 45%;
+}
+
+.footer{
+    height: 10%;
+    width: 100%;
+    background-color: orange;
+    color: white;
+    font-size:1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
